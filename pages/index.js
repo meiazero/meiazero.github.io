@@ -1,7 +1,7 @@
 import Head from "next/head";
 import "primeicons/primeicons.css";
 import styles from "../styles/Home.module.css";
-import { Footer } from "./components/ui/Footer";
+import { Footer } from "./components/ui/footer";
 import { Icon } from "./components/ui/icon";
 
 export default function Home() {
