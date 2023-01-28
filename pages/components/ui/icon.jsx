@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "../../../styles/Icon.module.css";
 
 export function Icon(props) {
