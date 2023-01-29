@@ -1,23 +1,30 @@
 /* .container, .container * {
     border: 1px solid purple;
-} debug */
+  }  debug */
 
-.container {
-	padding: 0 10px 0 5px;
+.iconContainer {
+	padding: 10px 0;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: center;
 	align-items: center;
 	text-decoration: none;
 	cursor: pointer;
+	transition: all 0.4s ease-in-out;
+	/* outline: none; */
 }
 
-.container i {
+.iconContainer:hover {
+	opacity: 0.4;
+}
+
+
+.iconContainer i {
 	color: #f3f3f3;
 	font-size: 1.5rem;
 	padding: 5px;
 }
 
-.container p {
+.iconLabel {
 	font-size: 1.5rem;
 }

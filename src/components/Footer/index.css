@@ -1,14 +1,13 @@
-.container {
+.footerContainer {
 	width: 100%;
 	height: 2rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: .8rem;
+	font-size: 0.8rem;
 }
 
-
-.copy svg {
+.footerCopy svg {
 	width: 1rem;
 	height: auto;
 	fill: #f33;
