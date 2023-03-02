@@ -1,0 +1,13 @@
+.footer {
+	/* border: 0.1rem solid red; */
+	width: 100%;
+	text-align: end;
+	/* padding: 0 3rem 0 0; */
+}
+
+.footer .github {
+	fill: #fff;
+	width: 1.8rem;
+	margin: 0 0.4rem 0 0;
+	transform: translateY(0.7rem);
+}
