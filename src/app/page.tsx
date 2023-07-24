@@ -1,25 +1,15 @@
-"use client";
+import "./page.module.scss";
 
-import "./page.module.css";
-
-import Hello from "./components/hello";
-import Job from "./components/job";
-import Message from "./components/message";
-import styled from "styled-components";
-
-const TextContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 8rem;
-`;
+import Hello from "./components/Hello";
+import Job from "./components/Job";
+import Message from "./components/Message";
 
 export default function Main() {
   return (
-    <TextContent>
+    <div className="containerText">
       <Hello />
       <Job />
       <Message />
-    </TextContent>
+    </div>
   );
 }
