@@ -1,6 +1,6 @@
 "use client";
 
-import { styled } from "styled-components";
+import styled from "styled-components";
 
 const MessageComponent = styled.div`
   width: 100%;
@@ -18,12 +18,11 @@ const MessageContent = styled.p`
   color: rgba(0, 0, 0, 0.5);
 `;
 
-export default function Message() {
+export default function Message({ children }) {
   return (
     <MessageComponent>
       <MessageContent>
-        i&apos;m 20 years old, majoring in information security and studying to
-        be a back-end developer.
+        {children}
       </MessageContent>
     </MessageComponent>
   );

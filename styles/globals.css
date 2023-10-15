@@ -1,0 +1,68 @@
+/* import the tailwind stuffs */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+	--primary-bg-color: #485696;
+	--primary-font-color: #fdfffc;
+	--primary-icon-color: #e3b23c;
+	--secondary-icon-color: #fff3bc;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	color: var(--primary-font-color);
+	background: linear-gradient(170deg, #485696 0%,
+									rgba(72, 86, 150, 0.75) 40%,
+									rgba(72, 86, 150, 0.50) 75%,
+									rgba(72, 86, 150, 0.00) 100%);
+	/* width: 100vh; */
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+
+a {
+	color: var(--primary-font-color);
+}
+
+:root {
+	font-size: 62.5%;
+	--primary-bg-color: #485696;
+	--primary-font-color: #fdfffc;
+	--primary-icon-color: #e3b23c;
+	--secondary-icon-color: #fff3bc;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	color: var(--primary-font-color);
+	background: linear-gradient(170deg, #485696 0%,
+									rgba(72, 86, 150, 0.75) 40%,
+									rgba(72, 86, 150, 0.50) 75%,
+									rgba(72, 86, 150, 0.00) 100%);
+	/* width: 100vh; */
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+
+a {
+	color: var(--primary-font-color);
+}

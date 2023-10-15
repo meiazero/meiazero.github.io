@@ -16,10 +16,12 @@ const JobText = styled.p`
   text-transform: uppercase;
 `;
 
-export default function Job() {
+export default function Job({ children }) {
   return (
     <JobContainer>
-      <JobText>web developer</JobText>
+      <JobText>
+        {children}
+      </JobText>
     </JobContainer>
   );
 }
