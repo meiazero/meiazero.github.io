@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   css: ['~/assets/css/tailwind.css'],
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', "nuxt-vercel-analytics"],
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
     configPath: 'tailwind.config.js',
@@ -15,6 +15,9 @@ export default defineNuxtConfig({
     },
     injectPosition: 'first',
     viewer: true,
+  },
+  typescript: {
+    strict: false
   },
   components: [
     {
