@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   css: ['~/assets/css/tailwind.css'],
-  modules: ['@nuxtjs/tailwindcss', "nuxt-vercel-analytics"],
+  modules: ['@nuxtjs/tailwindcss'],
   tailwindcss: {
     cssPath: '~/assets/css/tailwind.css',
     configPath: 'tailwind.config.js',
@@ -17,7 +17,7 @@ export default defineNuxtConfig({
     viewer: true,
   },
   typescript: {
-    strict: false
+    strict: false,
   },
   components: [
     {
@@ -30,8 +30,22 @@ export default defineNuxtConfig({
     head: {
       htmlAttrs: { lang: 'pt-br' },
       viewport: 'width=device-width, initial-scale=1',
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/icon.png' }],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        {
+          rel: 'preconnect',
+          href: 'https://fonts.googleapis.com',
+        },
+        {
+          rel: 'preconnect',
+          href: 'https://fonts.gstatic.com',
+          crossorigin: '',
+        },
+        {
+          href: 'https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap',
+          rel: 'stylesheet',
+        },
+      ],
     },
   },
-
 })
