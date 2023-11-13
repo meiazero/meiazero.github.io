@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Hero from '@/components/Hero.vue';
+import Hero from '@/components/Hero.vue'
 
 useHead({
   title: 'meiazero',
@@ -8,7 +8,9 @@ useHead({
 </script>
 
 <template>
-  <main class="w-full h-[600px] flex justify-center items-center">
+  <main
+    class="w-full h-[600px] flex justify-center items-center max-md:container"
+  >
     <Hero message="In development, please wait and follow me on" />
   </main>
 </template>
