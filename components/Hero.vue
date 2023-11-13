@@ -27,10 +27,10 @@ defineProps<HeroProps>()
         </Badge>
       </a>
       <a
-        href="https://x.com/avila_json"
+        href="https://x.com/meiaz3ro"
         target="_blank"
         referrerpolicy="no-referrer"
-        title="X(Twitter) profile"
+        title="X (Twitter) profile"
       >
         <Badge class="px-2">
           <X />
